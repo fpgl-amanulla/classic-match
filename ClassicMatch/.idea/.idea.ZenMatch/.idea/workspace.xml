@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d60d702-169c-4a88-a5db-d6ae97ffbe20" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2317.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2317.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2319.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2319.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2337.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2337.PNG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2348.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2348.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2357.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2357.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2358.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2358.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2359.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2359.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2375.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2375.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2376.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2406.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2406.PNG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2801.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2801.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2802.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2802.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2803.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2803.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2806.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2806.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2808.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2808.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2811.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2811.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2817.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2817.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2818.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2818.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2819.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2819.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2821.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2821.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2822.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2822.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2823.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2823.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2824.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2824.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2826.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2826.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2827.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2827.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2829.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2829.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2831.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2831.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2839.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2839.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2841.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2841.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2857.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2857.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2858.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2858.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2860.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2860.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2862.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2862.PNG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2864.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2864.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2865.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2865.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2869.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2869.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2870.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2870.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2990.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i2990.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i5878.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i5878.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i5928.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/Icon Shark/i5928.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/b2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/b3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/cell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Images/cell.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Item.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Item/item_1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Item/item_1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Item/item_2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Item/item_2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Item/item_3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Item/item_3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Stack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Stack/Stack 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Stack/Stack 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Stack/Stack 2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Stack/Stack 2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Stack/Stack 4.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Stack/Stack 4.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Stack/Stack.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Stack/Stack.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Stack/StackSingle1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/Stack/StackSingle1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/levePrefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/levePrefabs/Level1_items.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/levePrefabs/Level1_items.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/levePrefabs/Level2_items.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/Prefab/levePrefabs/Level2_items.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/UI/Backgrounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/UI/Backgrounds/Background 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/UI/Backgrounds/Background 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/UI/Backgrounds/Background 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/UI/Backgrounds/Background 3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/UI/Backgrounds/Background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/UI/Backgrounds/Background.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/UI/btn_play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/UI/btn_play.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scenes/MatchScene 1.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scenes/MatchScene 1.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scenes/MatchScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scenes/MatchScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scripts/ItemSelector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scripts/ItemSelector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scripts/Managers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scripts/Managers/ItemStackManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scripts/Managers/ItemStackManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scripts/Managers/LevelManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scripts/Managers/LevelManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scripts/Managers/SlotsManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scripts/Managers/SlotsManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scripts/Singleton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scripts/Singleton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scripts/SlotData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scripts/SlotData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scripts/UIManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Projects/scripts/UIManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ZenMatch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ZenMatch/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2317.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2317.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2319.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2319.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2337.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2337.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2348.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2348.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2357.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2357.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2358.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2358.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2359.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2359.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2375.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2375.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2376.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2376.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2406.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2406.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2801.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2801.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2802.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2802.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2803.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2803.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2806.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2806.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2808.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2808.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2811.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2811.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2817.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2817.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2818.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2818.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2819.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2819.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2821.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2821.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2822.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2822.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2823.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2823.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2824.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2824.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2826.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2826.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2827.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2827.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2829.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2829.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2831.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2831.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2839.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2839.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2841.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2841.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2857.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2857.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2858.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2858.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2860.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2860.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2862.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2862.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2864.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2864.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2865.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2865.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2869.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2869.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2870.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2870.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2990.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i2990.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i5878.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i5878.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i5928.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/Icon Shark/i5928.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/b2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/b2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/b3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/b3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/cell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Images/cell.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Item.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Item/item_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Item/item_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Item/item_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Item/item_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Item/item_3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Item/item_3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Stack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Stack/Stack 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Stack/Stack 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Stack/Stack 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Stack/Stack 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Stack/Stack 4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Stack/Stack 4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Stack/Stack.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Stack/Stack.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Stack/StackSingle1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/Stack/StackSingle1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/levePrefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/levePrefabs/Level1_items.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/levePrefabs/Level1_items.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/levePrefabs/Level2_items.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/Prefab/levePrefabs/Level2_items.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/UI/Backgrounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/UI/Backgrounds/Background 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/UI/Backgrounds/Background 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/UI/Backgrounds/Background 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/UI/Backgrounds/Background 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/UI/Backgrounds/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/UI/Backgrounds/Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/UI/btn_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/UI/btn_play.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scenes/MatchScene 1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scenes/MatchScene 1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scenes/MatchScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scenes/MatchScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts/ItemSelector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts/ItemSelector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts/ItemStackManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts/ItemStackManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts/LevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts/LevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts/Singleton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts/Singleton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts/SingletonBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts/SingletonBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts/SlotData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts/SlotData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts/SlotsManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts/SlotsManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts/UIManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/matchEm/scripts/UIManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27umKe2M1uedJqSU3d4IjotycEH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="rider.run.widget.enabled.cache" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d60d702-169c-4a88-a5db-d6ae97ffbe20" name="Changes" comment="" />
+      <created>1650178286640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650178286640</updated>
+      <workItem from="1650178287401" duration="8330000" />
+      <workItem from="1677845942621" duration="3156000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
