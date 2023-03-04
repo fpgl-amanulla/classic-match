@@ -15,7 +15,7 @@ namespace _Projects.scripts
         [HideInInspector] public bool isActive;
         [HideInInspector] public Button btnItem;
         public UnityAction<TileItem> OnItemClicked;
-        
+
         private bool _isGameOver = false;
 
         private void Start()
@@ -60,7 +60,7 @@ namespace _Projects.scripts
                 UIManager.Instance.LoadLoosePanel();
             }
 
-            StartCoroutine(CheckForGameOver(.5f));
+            StartCoroutine(CheckForGameOver(0));
         }
 
         private IEnumerator CheckForGameOver(float delayTime)

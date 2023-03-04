@@ -23,6 +23,8 @@ namespace _Projects.scripts
 
         private void Awake()
         {
+            Application.targetFrameRate = 30;
+
             btnPlay.image.rectTransform.DOScale(Vector3.one * .9f, .8f).SetLoops(-1, LoopType.Yoyo);
 
             btnPlay.onClick.AddListener(() =>
