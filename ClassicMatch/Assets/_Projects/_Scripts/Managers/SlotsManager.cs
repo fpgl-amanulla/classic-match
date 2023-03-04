@@ -1,10 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using _Projects._Scripts.Core;
 using _Projects._Scripts.Managers;
-using _Projects.Scripts;
 using Coffee.UIExtensions;
 using DG.Tweening;
-using UnityEditorInternal;
 using UnityEngine;
 
 namespace _Projects.scripts
@@ -50,7 +49,7 @@ namespace _Projects.scripts
             for (int i = 0; i < allSlot.Count; i++)
             {
                 if (allSlot[i].isEmpty) continue;
-                if (allSlot[i].item.transform.GetComponent<ItemSelector>().type == type)
+                if ((int) allSlot[i].item.transform.GetComponent<TileItem>().type == type)
                 {
                     maxPos = i + 1;
                 }
@@ -68,7 +67,7 @@ namespace _Projects.scripts
             {
                 if (allSlot[i].isEmpty) continue;
 
-                int typeCurrent = allSlot[i].item.transform.GetComponent<ItemSelector>().type;
+                int typeCurrent = (int) allSlot[i].item.transform.GetComponent<TileItem>().type;
                 if (typePrev != 0 && typePrev == typeCurrent)
                 {
                     matchCounter++;

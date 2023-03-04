@@ -169,7 +169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 150}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2702505941146513078
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allItemStack:
-  - ItemSelectorList:
+  - TileItemList:
     - {fileID: 1443672511641582143}
     - {fileID: 3516349715123713837}
     - {fileID: 5195440961439968040}
@@ -195,7 +195,7 @@ MonoBehaviour:
     - {fileID: 1446258839067856009}
     - {fileID: 4024992134660106511}
     - {fileID: 3562244396504210598}
-  - ItemSelectorList:
+  - TileItemList:
     - {fileID: 2545737880019290018}
     - {fileID: 4054122206472477925}
     - {fileID: 5542677353931293878}
@@ -211,11 +211,6 @@ MonoBehaviour:
     - {fileID: 5922300342430058092}
     - {fileID: 4962645486954836344}
     - {fileID: 5169797475159018181}
-  ItemSelectorList:
-  - {fileID: 998140760045429123, guid: 467f1c2d4a27d1b4da42f05ee47711f6, type: 3}
-  - {fileID: 221730262683102892, guid: c2935d82d3e4164429f26d376ea8d7f1, type: 3}
-  - {fileID: 6880698755525824180, guid: ae8fe8fc8bb334449a27589003033607, type: 3}
-  - {fileID: 6880698755525824180, guid: 567c8f4a7cbb24cb8909ef1172c11d1c, type: 3}
 --- !u!1001 &53340044731800008
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,25 +1,26 @@
 using System.Collections;
-using System.Collections.Generic;
+using _Projects._Scripts.Enum;
 using _Projects._Scripts.Managers;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace _Projects.scripts
 {
-    public class ItemSelector : MonoBehaviour
+    public class TileItem : MonoBehaviour
     {
-        public int type;
-        public Button btnItem;
+        public TileItemType type;
         public Image icon;
-        public bool isActive;
-
-        public UnityAction<ItemSelector> OnItemClicked;
+        [HideInInspector] public bool isActive;
+        [HideInInspector] public Button btnItem;
+        public UnityAction<TileItem> OnItemClicked;
+        
+        private bool _isGameOver = false;
 
         private void Start()
         {
+            btnItem = GetComponent<Button>();
             RectTransform rectTransform = GetComponent<RectTransform>();
             Vector2 originPos = rectTransform.localPosition;
             rectTransform.localPosition = new Vector3(rectTransform.localPosition.x, 800);
@@ -38,7 +39,8 @@ namespace _Projects.scripts
 
             SoundManager.Instance.PlaySFX(SoundManager.Instance.clickSFX);
 
-            SlotData slotData = SlotsManager.Instance.FindItemSlot(type) ?? SlotsManager.Instance.GetEmptySlot();
+            SlotData slotData = SlotsManager.Instance.FindItemSlot((int) type) ??
+                                SlotsManager.Instance.GetEmptySlot();
             if (slotData != null)
             {
                 SlotsManager.Instance.UpdateSlot(slotData.index, this.gameObject);
@@ -68,8 +70,9 @@ namespace _Projects.scripts
             {
                 UIManager.Instance.LoadLoosePanel();
             }
-            else if (ItemStackManager.Instance.IsGameOver()) // Win.......
+            else if (ItemStackManager.Instance.IsGameOver() && !_isGameOver) // Win.......
             {
+                _isGameOver = true;
                 LevelManager.Instance.LevelComplete();
             }
         }

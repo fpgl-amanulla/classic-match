@@ -1,6 +1,6 @@
 using System;
+using _Projects._Scripts.Core;
 using _Projects._Scripts.Managers;
-using _Projects.Scripts;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;

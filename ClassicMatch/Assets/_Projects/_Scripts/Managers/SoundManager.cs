@@ -1,5 +1,5 @@
 using System;
-using _Projects.Scripts;
+using _Projects._Scripts.Core;
 using UnityEngine;
 
 namespace _Projects._Scripts.Managers

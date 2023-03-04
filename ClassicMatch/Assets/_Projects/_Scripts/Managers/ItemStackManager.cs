@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using _Projects.Scripts;
-using UnityEngine;
+using _Projects._Scripts.Core;
+using _Projects._Scripts.ScriptableObject;
 using Random = System.Random;
 
 namespace _Projects.scripts
@@ -10,14 +10,14 @@ namespace _Projects.scripts
     [Serializable]
     public class ItemStack
     {
-        public List<ItemSelector> ItemSelectorList;
+        public List<TileItem> TileItemList;
     }
 
     public class ItemStackManager : Singleton<ItemStackManager>
     {
         public List<ItemStack> allItemStack = new();
 
-        public List<ItemSelector> ItemSelectorList = new List<ItemSelector>();
+        //public List<TileItem> TileItemPrefabList = new List<TileItem>();
 
         private void Start()
         {
@@ -35,29 +35,11 @@ namespace _Projects.scripts
 
         private void Init()
         {
-            List<ItemSelector> allItemSelector = new List<ItemSelector>();
-            for (int i = 0; i < allItemStack.Count; i++)
-            {
-                for (int j = 0; j < allItemStack[i].ItemSelectorList.Count; j++)
-                {
-                    allItemSelector.Add(allItemStack[i].ItemSelectorList[j]);
-                }
-            }
+            InitLevel();
 
-            for (int j = 0; j < allItemSelector.Count / 3; j++)
+            foreach (List<TileItem> itemList in allItemStack.Select(itemStack => itemStack.TileItemList))
             {
-                List<ItemSelector> itemSelectors = GetRandomThree(ref allItemSelector);
-                ItemSelector itemSelector = ItemSelectorList[UnityEngine.Random.Range(0, ItemSelectorList.Count)];
-                for (int i = 0; i < itemSelectors.Count; i++)
-                {
-                    itemSelectors[i].type = itemSelector.type;
-                    itemSelectors[i].icon.sprite = itemSelector.icon.sprite;
-                }
-            }
-
-            foreach (List<ItemSelector> itemList in allItemStack.Select(itemStack => itemStack.ItemSelectorList))
-            {
-                foreach (ItemSelector item in itemList)
+                foreach (TileItem item in itemList)
                 {
                     item.OnItemClicked += OnItemClicked;
                     item.btnItem.interactable = false;
@@ -65,10 +47,34 @@ namespace _Projects.scripts
             }
         }
 
-        private List<ItemSelector> GetRandomThree(ref List<ItemSelector> itemSelectors)
+        private void InitLevel()
+        {
+            List<TileItemSO> tileItemSoList = LevelManager.Instance.TileItemSoList;
+            List<TileItem> allItemSelector = new List<TileItem>();
+            for (int i = 0; i < allItemStack.Count; i++)
+            {
+                for (int j = 0; j < allItemStack[i].TileItemList.Count; j++)
+                {
+                    allItemSelector.Add(allItemStack[i].TileItemList[j]);
+                }
+            }
+
+            for (int j = 0; j < allItemSelector.Count / 3; j++)
+            {
+                List<TileItem> itemSelectors = GetRandomThree(ref allItemSelector);
+                TileItemSO tileItemSO = tileItemSoList[UnityEngine.Random.Range(0, tileItemSoList.Count)];
+                for (int i = 0; i < itemSelectors.Count; i++)
+                {
+                    itemSelectors[i].type = tileItemSO.type;
+                    itemSelectors[i].icon.sprite = tileItemSO.iconSprite;
+                }
+            }
+        }
+
+        private List<TileItem> GetRandomThree(ref List<TileItem> itemSelectors)
         {
             Random rand = new Random();
-            List<ItemSelector> selectors = itemSelectors.OrderBy(x => rand.Next()).Take(3).ToList();
+            List<TileItem> selectors = itemSelectors.OrderBy(x => rand.Next()).Take(3).ToList();
             for (int i = 0; i < selectors.Count; i++)
             {
                 itemSelectors.Remove(selectors[i]);
@@ -81,18 +87,18 @@ namespace _Projects.scripts
         {
             for (int i = 0; i < allItemStack.Count; i++)
             {
-                for (int j = 0; j < allItemStack[i].ItemSelectorList.Count; j++)
+                for (int j = 0; j < allItemStack[i].TileItemList.Count; j++)
                 {
-                    if (allItemStack[i].ItemSelectorList[j].btnItem != null) return false;
+                    if (allItemStack[i].TileItemList[j].btnItem != null) return false;
                 }
             }
 
             return true;
         }
 
-        private void OnItemClicked(ItemSelector itemSelector)
+        private void OnItemClicked(TileItem tileItem)
         {
-            int index = GetIndex(itemSelector);
+            int index = GetIndex(tileItem);
             if (!ShouldActiveNext(index)) return;
             ActiveItem(++index);
         }
@@ -101,18 +107,18 @@ namespace _Projects.scripts
         {
             if (index > allItemStack.Count - 1)
                 return;
-            List<ItemSelector> itemSelectorList = allItemStack[index].ItemSelectorList;
-            foreach (ItemSelector Item in itemSelectorList)
+            List<TileItem> itemSelectorList = allItemStack[index].TileItemList;
+            foreach (TileItem Item in itemSelectorList)
             {
                 Item.btnItem.interactable = true;
             }
         }
 
-        private int GetIndex(ItemSelector itemSelector)
+        private int GetIndex(TileItem tileItem)
         {
             for (int i = 0; i < allItemStack.Count; i++)
             {
-                if (allItemStack[i].ItemSelectorList.Contains(itemSelector))
+                if (allItemStack[i].TileItemList.Contains(tileItem))
                 {
                     return i;
                 }
@@ -123,7 +129,7 @@ namespace _Projects.scripts
 
         private bool ShouldActiveNext(int index)
         {
-            List<ItemSelector> itemSelectorList = allItemStack[index].ItemSelectorList;
+            List<TileItem> itemSelectorList = allItemStack[index].TileItemList;
             return itemSelectorList.All(item => !item.isActive);
         }
     }

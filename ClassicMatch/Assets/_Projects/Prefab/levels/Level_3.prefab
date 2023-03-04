@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allItemStack:
-  - ItemSelectorList:
+  - TileItemList:
     - {fileID: 2855224193854436407}
     - {fileID: 7961252812998989552}
     - {fileID: 317070361637469238}
@@ -155,11 +155,6 @@ MonoBehaviour:
     - {fileID: 4234636245975620207}
     - {fileID: 1915244369149488301}
     - {fileID: 4639867816066041698}
-  ItemSelectorList:
-  - {fileID: 998140760045429123, guid: 467f1c2d4a27d1b4da42f05ee47711f6, type: 3}
-  - {fileID: 221730262683102892, guid: c2935d82d3e4164429f26d376ea8d7f1, type: 3}
-  - {fileID: 6880698755525824180, guid: ae8fe8fc8bb334449a27589003033607, type: 3}
-  - {fileID: 6880698755525824180, guid: 567c8f4a7cbb24cb8909ef1172c11d1c, type: 3}
 --- !u!1001 &143656747247694813
 PrefabInstance:
   m_ObjectHideFlags: 0

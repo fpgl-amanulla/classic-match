@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using _Projects.Scripts;
+using _Projects._Scripts.Core;
+using _Projects._Scripts.ScriptableObject;
 using Coffee.UIExtensions;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace _Projects.scripts
 {
@@ -14,6 +14,8 @@ namespace _Projects.scripts
         public int levelNo;
         public GameObject levelParent;
         public UIParticle victoryEffect;
+
+        public List<TileItemSO> TileItemSoList = new List<TileItemSO>();
 
 
         public void LoadLvlPrefab()
@@ -33,10 +35,10 @@ namespace _Projects.scripts
 
             levelNo++;
 
-            StartCoroutine(ReloadScene(1.0f));
+            StartCoroutine(LoadWinPanel(1.0f));
         }
 
-        public IEnumerator ReloadScene(float delayTime)
+        public IEnumerator LoadWinPanel(float delayTime)
         {
             yield return new WaitForSeconds(1.25f);
             victoryEffect.Play();

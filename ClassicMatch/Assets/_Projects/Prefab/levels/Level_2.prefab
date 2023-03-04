@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allItemStack:
-  - ItemSelectorList:
+  - TileItemList:
     - {fileID: 3602305579338413495}
     - {fileID: 7558461418898499777}
     - {fileID: 1109488930084987786}
@@ -144,7 +144,7 @@ MonoBehaviour:
     - {fileID: 5205877482315341259}
     - {fileID: 8502922416197063198}
     - {fileID: 4996488264795621231}
-  - ItemSelectorList:
+  - TileItemList:
     - {fileID: 2545737880019290018}
     - {fileID: 4962483723582891750}
     - {fileID: 7170909303817875724}
@@ -154,11 +154,6 @@ MonoBehaviour:
     - {fileID: 8241223418350182138}
     - {fileID: 5922300342430058092}
     - {fileID: 5169797475159018181}
-  ItemSelectorList:
-  - {fileID: 998140760045429123, guid: 467f1c2d4a27d1b4da42f05ee47711f6, type: 3}
-  - {fileID: 221730262683102892, guid: c2935d82d3e4164429f26d376ea8d7f1, type: 3}
-  - {fileID: 6880698755525824180, guid: ae8fe8fc8bb334449a27589003033607, type: 3}
-  - {fileID: 6880698755525824180, guid: 567c8f4a7cbb24cb8909ef1172c11d1c, type: 3}
 --- !u!1 &8758025345467400305
 GameObject:
   m_ObjectHideFlags: 0

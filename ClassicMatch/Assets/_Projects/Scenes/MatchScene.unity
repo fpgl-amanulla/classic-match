@@ -1400,7 +1400,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4278248447
   m_fontColor: {r: 1, g: 0.89203674, b: 0, a: 1}
-  m_enableVertexGradient: 0
+  m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
     topLeft: {r: 1, g: 1, b: 1, a: 1}
@@ -4265,6 +4265,11 @@ MonoBehaviour:
   levelNo: 0
   levelParent: {fileID: 6227622}
   victoryEffect: {fileID: 275845282}
+  TileItemSoList:
+  - {fileID: 11400000, guid: f888faac523c9438290c8c84d71da156, type: 2}
+  - {fileID: 11400000, guid: d44da1fab9f664983aa2b225a5c9d827, type: 2}
+  - {fileID: 11400000, guid: 091e5023efa9941838d344db179d5772, type: 2}
+  - {fileID: 11400000, guid: 7b87f55787a414d87ba95bd026581864, type: 2}
 --- !u!1 &2095461582
 GameObject:
   m_ObjectHideFlags: 0
