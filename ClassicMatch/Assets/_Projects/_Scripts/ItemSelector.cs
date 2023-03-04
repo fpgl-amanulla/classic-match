@@ -1,3 +1,4 @@
+using _Projects._Scripts.Managers;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Events;
@@ -31,6 +32,9 @@ namespace _Projects.scripts
         private void ItemClickCallBack()
         {
             if (!isActive) return;
+
+            SoundManager.Instance.PlaySFX(SoundManager.Instance.clickSFX);
+
             SlotData slotData = SlotsManager.Instance.FindItemSlot(type) ?? SlotsManager.Instance.GetEmptySlot();
             if (slotData != null)
             {
@@ -45,11 +49,11 @@ namespace _Projects.scripts
                         SlotsManager.Instance.MatchCheck();
 
                         if (SlotsManager.Instance.IsItemsRemainingCheck()) return;
-                        
+
                         //loose no more items game end
                         if (SlotsManager.Instance.GetEmptySlot() == null)
                         {
-                            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                            UIManager.Instance.LoadLoosePanel();
                         }
                         else // Win.......
                         {

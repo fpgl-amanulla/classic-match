@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using _Projects._Scripts.Managers;
 using _Projects.Scripts;
 using Coffee.UIExtensions;
 using DG.Tweening;
@@ -86,10 +87,11 @@ namespace _Projects.scripts
                     UIParticle particleEffect =
                         slotReRectTransformList[y].gameObject.GetComponentInChildren<UIParticle>();
                     particleEffect.Play();
+                    UIManager.Instance.ShowStarFly(slotReRectTransformList[y]);
                     item.transform.DOScale(0, .3f).OnComplete(delegate
                     {
+                        SoundManager.Instance.PlaySFX(SoundManager.Instance.destroySFX);
                         Destroy(item.gameObject);
-                        //allSlot[y].item = null;
                     });
                 }
 

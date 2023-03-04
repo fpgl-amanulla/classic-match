@@ -38,10 +38,10 @@ namespace _Projects.scripts
 
         public IEnumerator ReloadScene(float delayTime)
         {
-            yield return new WaitForSeconds(.25f);
+            yield return new WaitForSeconds(1.25f);
             victoryEffect.Play();
             yield return new WaitForSeconds(delayTime);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            UIManager.Instance.LoadWinPanel();
         }
     }
 }
