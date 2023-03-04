@@ -213,4 +213,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 3
   btnItem: {fileID: 6880698755525824181}
+  icon: {fileID: 8897951458657551830}
   isActive: 0

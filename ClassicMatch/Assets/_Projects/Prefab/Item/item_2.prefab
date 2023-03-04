@@ -137,6 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   btnItem: {fileID: 221730262683102895}
+  icon: {fileID: 5726126084937460368}
   isActive: 0
 --- !u!1 &3443054588312881222
 GameObject:

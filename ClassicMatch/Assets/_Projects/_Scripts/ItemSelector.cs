@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using _Projects._Scripts.Managers;
 using DG.Tweening;
 using UnityEngine;
@@ -11,6 +13,7 @@ namespace _Projects.scripts
     {
         public int type;
         public Button btnItem;
+        public Image icon;
         public bool isActive;
 
         public UnityAction<ItemSelector> OnItemClicked;
@@ -43,27 +46,31 @@ namespace _Projects.scripts
                 Destroy(btnItem.GetComponent<Button>());
                 OnItemClicked?.Invoke(this);
 
+                btnItem.GetComponent<RectTransform>().DOSizeDelta(new Vector2(65, 75), .4f);
                 btnItem.GetComponent<RectTransform>()
                     .DOMove(slotData.rectTransform.position, .4f).OnComplete(delegate
                     {
                         SlotsManager.Instance.MatchCheck();
-
-                        if (SlotsManager.Instance.IsItemsRemainingCheck()) return;
-
-                        //loose no more items game end
-                        if (SlotsManager.Instance.GetEmptySlot() == null)
-                        {
-                            UIManager.Instance.LoadLoosePanel();
-                        }
-                        else // Win.......
-                        {
-                            LevelManager.Instance.LevelComplete();
-                        }
                     });
             }
             else //game end no slot
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                UIManager.Instance.LoadLoosePanel();
+            }
+
+            StartCoroutine(CheckForGameOver(.5f));
+        }
+
+        private IEnumerator CheckForGameOver(float delayTime)
+        {
+            yield return new WaitForSeconds(delayTime);
+            if (SlotsManager.Instance.GetEmptySlot() == null)
+            {
+                UIManager.Instance.LoadLoosePanel();
+            }
+            else if (ItemStackManager.Instance.IsGameOver()) // Win.......
+            {
+                LevelManager.Instance.LevelComplete();
             }
         }
     }

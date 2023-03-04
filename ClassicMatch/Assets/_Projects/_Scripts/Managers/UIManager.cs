@@ -32,6 +32,7 @@ namespace _Projects.scripts
                 LevelManager.Instance.LoadLvlPrefab();
             });
 
+            ResourceDataManager.Instance.ResetStarCount();
             UpdateStartCount();
             ResourceDataManager.Instance.onStartCountUpdate += UpdateStartCount;
         }

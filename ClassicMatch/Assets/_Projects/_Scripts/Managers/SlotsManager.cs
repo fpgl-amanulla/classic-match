@@ -4,6 +4,7 @@ using _Projects._Scripts.Managers;
 using _Projects.Scripts;
 using Coffee.UIExtensions;
 using DG.Tweening;
+using UnityEditorInternal;
 using UnityEngine;
 
 namespace _Projects.scripts
@@ -11,8 +12,8 @@ namespace _Projects.scripts
     public class SlotsManager : Singleton<SlotsManager>
     {
         public List<RectTransform> slotReRectTransformList = new();
-        [HideInInspector] public List<SlotData> allSlot = new();
-        public GameObject itemsHolder;
+        public List<SlotData> allSlot = new();
+        [HideInInspector] public GameObject itemsHolder;
 
         private int CurrentSlot { get; set; }
 

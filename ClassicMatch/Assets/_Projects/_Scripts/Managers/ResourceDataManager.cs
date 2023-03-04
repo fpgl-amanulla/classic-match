@@ -18,5 +18,7 @@ namespace _Projects._Scripts.Managers
             startCount += amount;
             onStartCountUpdate?.Invoke();
         }
+
+        public void ResetStarCount() => startCount = 0;
     }
 }
